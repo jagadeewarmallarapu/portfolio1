@@ -1,0 +1,34 @@
+* h1{
+    padding-left: 600px;
+    text-decoration: underline;
+
+}
+
+* article{
+    margin-left: 405px;
+    text-transform: uppercase;
+    
+}
+* form{
+    margin:50px 0 0 600px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.reach-us{
+    margin: 40px 0 0 0;
+}
+
+#other-way{
+    margin-left: 520px;
+}
+
+ul{
+    margin-left: 400px;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+i{
+    padding-left: 10px;
+}

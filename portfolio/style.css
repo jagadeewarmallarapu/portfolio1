@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   background-color: #F6F5F2; 
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 150px;
+    
+}
+
+/*navbar*/
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000;
+}
+
+nav ul li a:hover{
+    color: #FAA300; 
+}
+
+/* detel of the persion*/
+
+.detel{
+    margin: 200px 0px 0px 130px;
+   
+}
+
+.toflex{ 
+    display: flex;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.detel span:hover{
+    color: #4793AF;
+}
+
+.animation{
+    color: orange;
+    animation:opacity 3s  none;
+    
+}
+
+@keyframes opacity{
+    0% { opacity: 0;}
+    /*50% { opacity: 5;}*/
+    100% { opacity: 5;}
+
+    
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.background{
+    height: 450px;
+    width: 450px;
+    background-color: #FAA300;
+    position: absolute;
+    bottom: 0;
+    right: 100px;        
+    border-radius: 50%;
+    box-shadow: 10PX 15PX 40px orange ;
+    transition: all 1s ease-in-out;
+}
+
+.background:hover{
+    bottom: 40px; 
+
+}
+
+ .background img{
+    height: 600px;
+    width: 575px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+    border-radius: 90%;
+} 
+
+/*main topic*/
+
+.main{
+    margin: 350px 50px 0 50px;
+    display: flex;
+    
+}
+
+.block{
+    height: 350px;
+    width: 650px;
+    background-color: #555;
+    color: #F6F5F2;
+    border-radius: 40px;
+    box-shadow: 10px 10px orange;
+    animation: slide 4s infinite;
+}
+
+@keyframes slide{
+    0% {transform: translate(-40%);}
+    100% {transform: translate(10%);}
+
+
+}
+
+.other-section{
+    margin-left: 200px;
+}
+
+
+.other-section{
+    animation: slider2 4s infinite;
+}
+
+@keyframes slider2 {
+
+    0%{transform: translate(40%);}
+    100% {transform: translate(-10%);}
+}
+section{
+    text-transform: uppercase;
+    padding: 30px 0 0 60px;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+
+}
+
+article{
+    padding: 30px 0 0 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* project layout pic's*/
+
+.project{
+
+    margin:60px 30px 0 50px;
+    
+}
+
+.head-text{
+    margin-left: 570px;
+    text-transform: uppercase;
+    color: #FAA300;
+    text-decoration:underline;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.head-text:hover{
+    animation: opacity 3s none;
+    color: #4793AF;
+
+}
+
+.layout{
+    margin-top: 80px;
+    height: 1000px;
+    width: 1400px;
+}
+
+.layout:hover{
+    animation: pulse 1s normal;
+ }
+ 
+ @keyframes pulse{
+     0%,100% {transform: scale(1);}
+     50% { transform: scale(1.1);} 
+ }
+
+ /* FOOTER */
+
+footer{
+    background-color: #FAA300;
+    height: 400px;
+    margin-top: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: #F6F5F2;
+    text-transform: uppercase;
+}
+
+.footer-icon :hover{
+    color: black;
+ 
+}
+
+li{
+    margin-top: 50px;
+    padding-left: 10px;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+i{
+    color: #000;
+    font-size: 1.6rem;
+    padding-right: 10px;
+}
+
+#thanks{
+    margin: 40px 0 0 250px;
+    font-size: 1.5rem;
+    color: #F6F5F2;
+}
+
+#center{
+    margin-left: 155px;
+}
